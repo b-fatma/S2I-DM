@@ -1,4 +1,5 @@
 data/processed/landcover
+data/processed/soil/soil_attributes.nc
 data/raw
 dmenv
 .env
