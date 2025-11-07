@@ -9,6 +9,7 @@ load_dotenv()
 RAW_DATA_PATH = Path(os.getenv("RAW_DATA_PATH"))
 PROCESSED_DATA_PATH = Path(os.getenv("PROCESSED_DATA_PATH"))
 
+
 # Raw data files
 raw_files = {
     "fire_dz": RAW_DATA_PATH / os.getenv("FIRE_DZ"),
