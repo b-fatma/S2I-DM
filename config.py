@@ -36,4 +36,5 @@ processed_files = {
     "elevation": PROCESSED_DATA_PATH / os.getenv("ELEVATION_PROCESSED"),
     "soil_raster": PROCESSED_DATA_PATH / os.getenv("SOIL_RASTER_PROCESSED"),
     "soil_att": PROCESSED_DATA_PATH / os.getenv("SOIL_ATT_PROCESSED"),
+    "soil_nc": PROCESSED_DATA_PATH / os.getenv("SOIL_NC_PROCESSED"),
 }
