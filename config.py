@@ -8,6 +8,7 @@ load_dotenv()
 # Base directories
 RAW_DATA_PATH = Path(os.getenv("RAW_DATA_PATH"))
 PROCESSED_DATA_PATH = Path(os.getenv("PROCESSED_DATA_PATH"))
+PRE_MERGE_DATA_PATH = Path(os.getenv("PRE_MERGE_DATA_PATH"))
 
 
 # Raw data files
@@ -38,3 +39,11 @@ processed_files = {
     "soil_att": PROCESSED_DATA_PATH / os.getenv("SOIL_ATT_PROCESSED"),
     "soil_nc": PROCESSED_DATA_PATH / os.getenv("SOIL_NC_PROCESSED"),
 }
+
+# Pre-merge data files
+pre_merge_files = {
+    "fire": PRE_MERGE_DATA_PATH / os.getenv("FIRE_PRE_MERGE"),
+    "landcover": PRE_MERGE_DATA_PATH / os.getenv("LANDCOVER_PRE_MERGE"),
+}
+
+latitude_lower_bound = 27.207522500000007
